@@ -15,42 +15,42 @@
             combo_01 {
                 timeout-ms = <50>;
                 key-positions = <0 1>;
-                bindings = <&kp TILDE>;
+                bindings = <&kp GRAVE>;
             };
 
             combo_rt {
                 timeout-ms = <50>;
-                key-positions = <4 5>;
+                key-positions = <3 4>;
                 bindings = <&kp LBKT>;
             };
 
             combo_yu {
                 timeout-ms = <50>;
-                key-positions = <6 7>;
+                key-positions = <7 8>;
                 bindings = <&kp RBKT>;
             };
 
             combo_fg {
                 timeout-ms = <50>;
-                key-positions = <16 17>;
+                key-positions = <15 16>;
                 bindings = <&kp LBRC>;
             };
 
             combo_hj {
                 timeout-ms = <50>;
-                key-positions = <18 19>;
+                key-positions = <19 20>;
                 bindings = <&kp RBRC>;
             };
 
             combo_vb {
                 timeout-ms = <50>;
-                key-positions = <28 29>;
+                key-positions = <27 28>;
                 bindings = <&kp PIPE>;
             };
 
             combo_nm {
                 timeout-ms = <50>;
-                key-positions = <30 31>;
+                key-positions = <31 30>;
                 bindings = <&kp BSLH>;
             };
         };
