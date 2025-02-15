@@ -12,6 +12,12 @@
     combos {
             compatible = "zmk,combos";
 
+            combo_12_13 {
+                timeout-ms = <50>;
+                key-positions = <12 13>;
+                bindings = <&kp TAB>;
+            };
+   
             combo_01 {
                 timeout-ms = <50>;
                 key-positions = <0 1>;
