@@ -19,49 +19,49 @@
         compatible = "zmk,combos";
 
         combo_01 {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <0 1>;
             bindings = <&kp GRAVE>;
         };
 
         combo_rt {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <3 4>;
             bindings = <&kp LBKT>;
         };
 
         combo_yu {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <7 8>;
             bindings = <&kp RBKT>;
         };
 
         combo_fg {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <15 16>;
             bindings = <&kp LBRC>;
         };
 
         combo_hj {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <19 20>;
             bindings = <&kp RBRC>;
         };
 
         combo_vb {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <27 28>;
             bindings = <&kp PIPE>;
         };
 
         combo_nm {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <31 32>;
             bindings = <&kp BSLH>;
         };
 
         combo_10_11 {
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             key-positions = <10 11>;
             bindings = <&kp DEL>;
         };
@@ -93,7 +93,7 @@
                 &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
                 &kp TAB  &hm LSHFT A &hm LCTRL S &hm LALT D &hm LGUI F &kp G   &kp H &hm LGUI J &hm LALT K &hm LCTRL L &hm LSHFT SEMI &kp SQT
                 &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                          &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
+                          &trans &mo 1 &kp SPACE   &kp RET &mo 2 &kp &trans
             >;
         };
 
@@ -102,7 +102,7 @@
                 &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6     &kp N7    &kp N8    &kp N9    &kp N0    &kp MINUS  &kp EQUAL
                 &kp TAB  &hm LSHFT A &hm LCTRL S &hm LALT D &hm LGUI F    &trans     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans     &trans
                 &kp LSHFT &trans    &trans    &trans    &trans    &trans     &trans    &trans    &trans    &trans    &trans     &kp RSHFT
-                                     &kp LGUI &trans    &kp SPACE  &kp RET   &trans    &kp RALT
+                                     &trans &trans &kp SPACE  &kp RET   &trans  &trans
             >;
         };
 
@@ -111,7 +111,7 @@
                 &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6     &kp F7    &kp F8    &kp F9    &kp F10   &kp F11    &kp F12
                 &kp TAB  &hm LSHFT A &hm LCTRL S &hm LALT D &hm LGUI F    &trans     &trans &hm LGUI J &hm LALT K &hm LCTRL L &hm LSHFT SEMI  &trans
                 &kp LSHFT &trans    &trans    &trans    &trans    &trans     &trans &trans  &trans  &trans  &trans  &kp RSHFT
-                                     &kp LGUI &trans    &kp SPACE  &kp RET   &trans    &kp RALT
+                                     &trans &trans &kp SPACE  &kp RET   &trans  &trans
             >;
         };
     };
